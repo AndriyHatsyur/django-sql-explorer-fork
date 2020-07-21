@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SQL Explorer{% if query %} - {{ query.title }}{% elif title %} - {{ title }}{% endif %}</title>
 
-  <link href="{% static 'explorer/codemirror.min.css %}" rel="stylesheet" />
-  <link href="{% static 'explorer/pivot.min.css %}" rel="stylesheet" />
+  <link rel="stylesheet" href="{% static 'explorer/codemirror.min.css %}" />
+  <link rel="stylesheet" href="{% static 'explorer/pivot.min.css %}" />
   <link rel="stylesheet" href="{% static 'explorer/bootstrap.min.css' %}" />
   <link rel="stylesheet" href="{% static 'explorer/explorer.css' %}" />
 

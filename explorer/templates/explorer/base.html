@@ -8,13 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SQL Explorer{% if query %} - {{ query.title }}{% elif title %} - {{ title }}{% endif %}</title>
 
-  <link rel="stylesheet" href="{% static 'explorer/codemirror.min.css %}" />
-  <link rel="stylesheet" href="{% static 'explorer/pivot.min.css %}" />
+  <link rel="stylesheet" href="{% static 'explorer/codemirror.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'explorer/pivot.min.css' %}" />
   <link rel="stylesheet" href="{% static 'explorer/bootstrap.min.css' %}" />
   <link rel="stylesheet" href="{% static 'explorer/explorer.css' %}" />
 
-  <script src="{% static 'explorer/jquery.min.js %}"></script>
-  <script src="{% static 'explorer/jquery.cookie.min.js %}"></script>
+  <script src="{% static 'explorer/jquery.min.js' %}"></script>
+  <script src="{% static 'explorer/jquery.cookie.min.js' %}"></script>
 
   <script src="{% static 'explorer/jquery-ui.min.js' %}"></script>
   <script src="{% static 'explorer/explorer.js' %}"></script>
@@ -59,14 +59,14 @@
     </div>
   </div>
   {% endblock %}
-  <script src="{% static 'explorer/underscore-min.js %}"></script>
-  <script src="{% static 'explorer/bootstrap.min.js %}"></script>
-  <script src="{% static 'explorer/list.min.js %}"></script>
-  <script src="{% static 'explorer/codemirror.min.js %}"></script>
-  <script src="{% static 'explorer/sql.min.js %}"></script>
-  <script src="{% static 'explorer/comment.min.js %}"></script>
-  <script src="{% static 'explorer/jquery.floatThead.min.js %}"></script>
-  <script src="{% static 'explorer/pivot.min.js"></script>
+  <script src="{% static 'explorer/underscore-min.js' %}"></script>
+  <script src="{% static 'explorer/bootstrap.min.js' %}"></script>
+  <script src="{% static 'explorer/list.min.js' %}"></script>
+  <script src="{% static 'explorer/codemirror.min.js' %}"></script>
+  <script src="{% static 'explorer/sql.min.js' %}"></script>
+  <script src="{% static 'explorer/comment.min.js' %}"></script>
+  <script src="{% static 'explorer/jquery.floatThead.min.js' %}"></script>
+  <script src="{% static 'explorer/pivot.min.js' %}"></script>
   {% block sql_explorer_scripts %}{% endblock %}
 </body>
 
